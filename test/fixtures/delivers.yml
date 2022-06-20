@@ -1,0 +1,18 @@
+# == Schema Information
+#
+# Table name: delivers
+#
+#  id          :bigint           not null, primary key
+#  due_date    :date
+#  homework_id :bigint           not null
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+
+one:
+  due_date: 2022-06-20
+  homework: one
+
+two:
+  due_date: 2022-06-20
+  homework: two

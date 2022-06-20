@@ -1,0 +1,24 @@
+# == Schema Information
+#
+# Table name: homeworks
+#
+#  id          :bigint           not null, primary key
+#  title       :string
+#  subject     :string
+#  due_date    :date
+#  description :text
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+
+one:
+  title: MyString
+  subject: MyString
+  due_date: 2022-06-20
+  description: MyText
+
+two:
+  title: MyString
+  subject: MyString
+  due_date: 2022-06-20
+  description: MyText

@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Due date:
+  = @deliver.due_date
+%p
+  %b Homework:
+  = @deliver.homework
+
+= link_to 'Edit', edit_deliver_path(@deliver)
+\|
+= link_to 'Back', delivers_path
